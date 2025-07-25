@@ -24,11 +24,12 @@ public class Main {
         // Define an array of available cars for the AI.
         String[] aiCarOptions = {
                 "2019 Shelby GT500",
-                "2015 Chevy Corvette ZR1",
+                "2019 Chevy Corvette ZR1",
                 "Modified 1993 Ford Mustang Cobra Foxbody 5.0",
-                "2022 Dodge Demon 170",
+                "2023 Dodge Demon 170",
                 "2019 Toyota Supra Mk.5",
-                "1969 Chevy 'Yenko' Camaro - 427 Cubic Inch Upgrade "
+                "1969 Chevy 'Yenko' Camaro - 427 Cubic Inch Upgrade ",
+                "2014 Dodge Viper T/A Twin Turbo (Cammed)"
         };
         String aiCarChoice = aiCarOptions[random.nextInt(aiCarOptions.length)];
         Car aiCar = new Car(aiCarChoice);
